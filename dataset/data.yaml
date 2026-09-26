@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['With Helmet', 'Without Helmet']
+
+roboflow:
+  workspace: yolo-v11-mmc6o
+  project: bike-helmet-detection-2vdjo-agpe6
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/yolo-v11-mmc6o/bike-helmet-detection-2vdjo-agpe6/dataset/1

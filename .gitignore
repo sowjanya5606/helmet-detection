@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+yolov7_env/
+helmet/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# YOLO / training outputs
+runs/
+*/runs/
+*.cache
+*.pt.tmp
+
+# TensorBoard
+runs/*/events.out.tfevents.*
+
+# YOLO checkpoints
+*/weights/epoch*.pt
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.Zone.Identifier
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python distribution
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+# Generated prediction images
+results/predictions/
+
+# Generated prediction images
+results/predictions/
